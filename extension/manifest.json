@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "42 Intra - Force 42cursus Header",
+  "version": "1.0.1",
+  "description": "Automatically forces the 42 Intra dashboard header selector to display 42cursus instead of C Piscine or Piscine Reloaded.",
+  "author": "BernatQi",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://profile.intra.42.fr/*",
+        "https://profile-v3.intra.42.fr/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "force-42cursus-header@42barcelona.org",
+      "strict_min_version": "109.0"
+    }
+  }
+}

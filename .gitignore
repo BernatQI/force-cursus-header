@@ -1,0 +1,23 @@
+# OS metadata
+.DS_Store
+Thumbs.db
+*~
+
+# Editor / IDE directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local / temporary archives & packages
+*.zip
+*.crx
+*.pem
+*.xpi
+
+# Node / tooling (if added in the future)
+node_modules/
+dist/
+build/
+.env
+.env.*

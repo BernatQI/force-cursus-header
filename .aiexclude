@@ -1,0 +1,26 @@
+# ==============================================================================
+# 🛡️ CONTEXT & TOKEN PROTECTION RULES (.aiexclude)
+# ==============================================================================
+
+# 1. Version Control & Worktrees
+.git/
+
+# 2. Human-Only Spanish Documentation Mirrors (Prevent Duplicate Context)
+README.es.md
+docs/adr/es/
+docs/specs/es/
+
+# 3. Packages, Archives & Binary Artifacts
+*.zip
+*.crx
+*.xpi
+*.pem
+*.png
+*.jpg
+*.svg
+*.ico
+
+# 4. Logs & Temp
+*.log
+temp/
+scratch/
